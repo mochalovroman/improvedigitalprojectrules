@@ -18,6 +18,7 @@ buildNumber=$(($buildNumber + 1))
 /usr/libexec/PlistBuddy -c "Set :CFBundleVersion $buildNumber" "$INFOPLIST_FILE"
 ```
 - Скрипт для генерации доп. инфы на иконке приложения
+<img src="http://take.ms/97MfQ" alt="icon with additional info" />
 ```bash
 # номер версии
 version=`/usr/libexec/PlistBuddy -c "Print CFBundleShortVersionString" "${INFOPLIST_FILE}"`
