@@ -1,8 +1,9 @@
 # improve digital project rules
 
 ## Работа с develop и production версиями
-Для каждого проекта существует production target - <appName> (для примера у нас боевое приложение будет называться "fleksifuotto.fi")
-Для каждого проекта существует develop target - <shortAppName-develop> (для примера у нас тестовое приложение будет называться "fleksi-fi-develop")
+- Для каждого проекта существует production target - <appName> (для примера у нас боевое приложение будет называться "fleksifuotto.fi")
+- Для каждого проекта существует develop target - <shortAppName-develop> (для примера у нас тестовое приложение будет называться "fleksi-fi-develop")
+
 У каждого обязательно должны быть разные bundle identifier, чтобы:
 - в Fabric были разделены production и develop версии
 - для утилиты Fastlane которая занимается сборкой проекта и автовыливкой в Fabric, легко работать разными с таргетами
